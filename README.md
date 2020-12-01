@@ -1,7 +1,4 @@
-# Integrating genetic regulatory networks and genome-scale metabolic models using GEMINI and PROM
-We have developed two genome-scale metabolic network algorithms that integrate the transcriptional regulatory network into genome-scale metabolic models. 
-
-## PROM (Probabilistic Regulation of Metabolism) 
+# PROM (Probabilistic Regulation of Metabolism) 
 **PROM** enables the quantitative integration of regulatory and metabolic networks to build genome-scale integrated metabolic–regulatory models. 
 
 ## Installation
@@ -65,10 +62,6 @@ threshold set for binarization.
   * The program will output a warning if the threshold is poorly chosen. The default value (0.2 - 0.4) should work for most cases.
 
 * `probTFgene`: Gives the probabilities estimated for each interaction.
-
-
-## GEMINI (Gene Expression and Metabolism Integrated for Network Inference)
-**GEMINI** directly connects regulatory interactions to observable phenotypes and allows rapid assessment of inferred regulatory interactions using a metabolic network.
 
 ## Contributions
 Contributions are welcome! Please read the contributions guide to get started. Also feel free to submit bugs, feature requests, and pull requests.
