@@ -4,10 +4,10 @@ We have developed two genome-scale metabolic network algorithms that integrate t
 ## PROM (Probabilistic Regulation of Metabolism) 
 **PROM** enables the quantitative integration of regulatory and metabolic networks to build genome-scale integrated metabolic–regulatory models. 
 
-### Installation
+## Installation
 PROM was implemented in MATLAB (recommended version: 2018+), and requires the GLPK Solver (recommended version: 2018+). The file `promv2.m` in this repository is used to run PROM.
 
-### Usage
+## Usage
 The function `promv2` has the following syntax:
 `function [f,f_ko,v,v_ko,status1,lostXns,probTFgene] =  promv2(model,expression,expressionID,regulator,targets,litEvidence,prob_prior,subsets,minFlux,maxFlux,KAPPA,DATATHRESHVAL,probTFgene,sizeFlag)`
 #### INPUTS:
@@ -70,7 +70,12 @@ threshold set for binarization.
 ## GEMINI (Gene Expression and Metabolism Integrated for Network Inference)
 **GEMINI** directly connects regulatory interactions to observable phenotypes and allows rapid assessment of inferred regulatory interactions using a metabolic network.
 
-### Publications
+## Contributions
+Contributions are welcome! Please read the contributions guide to get started. Also feel free to submit bugs, feature requests, and pull requests.
+
+Additionally, you can support development for PROM by citing the original publications.
+
+## Publications
 1. Chandrasekaran S and N.D. Price, "Probabilistic integrative modeling of genome-scale metabolic and regulatory networks in Escherichia coli and Mycobacterium tuberculosis," PNAS, 2010. 
 2. Simeonidis E, Chandrasekaran S, Price ND. “A guide to integrating transcriptional regulatory and metabolic networks using PROM (Probabilistic Regulation of Metabolism)”, Methods in Molecular Biology: Systems Metabolic Engineering.
 3. Chandrasekaran S and N.D. Price, “Metabolic Constraint-based Refinement of Transcriptional Regulatory Networks”, PLOS Computational Biology, 2013.
